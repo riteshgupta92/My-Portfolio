@@ -24,9 +24,9 @@ const Skills = () => {
         {/* Grid Container */}
         <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
           {[{img: HTML, name: "HTML"}, {img: CSS, name: "CSS"}, {img: JAVASCRIPT, name: "JavaScript"}, {img: REACT, name: "React"}, {img: REDUX, name: "Redux"}, {img: TAILWIND, name: "Tailwind"}, {img: MONGODB, name: "MongoDB"}, {img: NODEJS, name: "NodeJS"}, {img: GITHUB, name: "GitHub"}].map(skill => (
-            <div key={skill.name} className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div key={skill.name} className='shadow-md bg-slate-900 shadow-[#040c16] p-2 cursor-pointer hover:scale-110 duration-500'>
               <img className='w-20 mx-auto' src={skill.img} alt={`${skill.name} icon`} />
-              <p className='my-4'>{skill.name}</p>
+              <p className='my-4 text-white'>{skill.name}</p>
             </div>
           ))}
         </div>
