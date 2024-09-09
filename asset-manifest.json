@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.c6bb7f7d.css",
+    "main.js": "/My-Portfolio/static/js/main.76451646.js",
+    "static/js/453.1407b060.chunk.js": "/My-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Screenshot.png": "/My-Portfolio/static/media/Screenshot.fd0bb0c4592d82b650ad.png",
+    "static/media/mongodb.png": "/My-Portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.457fee1e62911df9d399.png",
+    "static/media/redux.png": "/My-Portfolio/static/media/redux.5de70b7bc0d2556a0958.png",
+    "static/media/javascript.png": "/My-Portfolio/static/media/javascript.166865dacb77d214f485.png",
+    "static/media/react.png": "/My-Portfolio/static/media/react.2c0a9005f4cded1a4b68.png",
+    "static/media/css.png": "/My-Portfolio/static/media/css.f5abc244362b5136dc0e.png",
+    "static/media/html.png": "/My-Portfolio/static/media/html.aedef2028f4794b0a967.png",
+    "static/media/tailwind.png": "/My-Portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/Screenshot2.png": "/My-Portfolio/static/media/Screenshot2.6a9f5a45151a722d8b02.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.c6bb7f7d.css.map": "/My-Portfolio/static/css/main.c6bb7f7d.css.map",
+    "main.76451646.js.map": "/My-Portfolio/static/js/main.76451646.js.map",
+    "453.1407b060.chunk.js.map": "/My-Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6bb7f7d.css",
+    "static/js/main.76451646.js"
+  ]
+}
