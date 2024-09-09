@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
+/* Add this CSS to your existing stylesheet */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-link {
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #228B22; /* Change this color to your preferred underline color */
+    transition: width 0.3s;
+    bottom: -4px;
+    left: 0;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .nav-link:hover::after {
+    width: 100%;
   }
-}
+  
+  .nav-link:hover {
+    color: #228B22; /* Change this color to your preferred hover text color */
+  }
+  
